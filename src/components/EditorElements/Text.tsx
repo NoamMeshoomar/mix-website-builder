@@ -8,9 +8,9 @@ interface Props {
 const Text = ({content, editable}: Props) => {
     const inputRef = useRef<any>(null);
 
-    useEffect(() => {
-        inputRef.current.select();
-    }, [inputRef]);
+    // useEffect(() => {
+    //     inputRef.current.select();
+    // }, [inputRef]);
 
     return <>
         {!editable ? <h1>{content}</h1> : <form>
