@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-grey-color: #f2f2f2;
+    --grey-color: #b4b4b4;
+    --dark-grey-color: #575757;
+    --blue-color: #1578ff;
+    --light-blue-color: #8abcff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.mark-selected {
+    outline: 3px dashed var(--blue-color);
+    outline-offset: 3px;
+}
+
+.mark-hovered {
+    outline: 3px dashed var(--light-blue-color);
+    outline-offset: 3px;
+}
+
+.editor-elem {
+    margin: 10px;
+}
+
+.ghost {
+    opacity: .5;
+}

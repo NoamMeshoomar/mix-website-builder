@@ -1,0 +1,29 @@
+.CollapseList {
+    padding: 20px;
+    width: 365px;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: var(--light-grey-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.CollapseList img {
+    transition: transform 300ms ease;
+}
+
+.CollapseList.active img {
+    transform: rotate(90deg);
+}
+
+@keyframes SlideRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

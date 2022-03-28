@@ -1,0 +1,59 @@
+.EditorSidebar {
+    width: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.EditorSidebar .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditorSidebar .collapse-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.EditorSidebar .collapse-lists .element-properties {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.EditorSidebar .collapse-lists .element-properties * {
+    width: 100%;
+    margin: 10px;
+}
+
+.EditorSidebar .collapse-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.EditorSidebar .collapse-items.active {
+    margin-bottom: 10px;
+}
+
+.EditorSidebar .publish-btn {
+    padding: 15px;
+    margin-top: 20px;
+    align-self: center;
+    text-decoration: none;
+    background-color: rgb(57, 212, 83);
+    color: white;
+    border-radius: 10px;
+    transition: background-color 300ms ease;
+}
+
+.EditorSidebar .publish-btn:hover {
+    background-color: rgb(43, 172, 65);
+}

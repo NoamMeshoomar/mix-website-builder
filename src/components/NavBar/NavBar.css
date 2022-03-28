@@ -1,0 +1,12 @@
+.NavBar {
+    width: fit-content;
+    margin: 20px;
+}
+
+.NavBar .logo {
+    padding: 5px 20px;
+    display: flex;
+    border: 5px solid #00a8d8;
+    text-decoration: none;
+    cursor: pointer;
+}

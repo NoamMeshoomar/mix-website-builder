@@ -1,0 +1,13 @@
+.CollapseItem {
+    width: 110px;
+    height: 110px;
+    border: 1px solid var(--light-grey-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.CollapseItem:hover {
+    cursor: grab;
+}
